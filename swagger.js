@@ -35,7 +35,7 @@ const options = {
       },
     ],
   },
-  apis: ['./api-docs/petCategory.yaml'], // Path to your routes files
+  apis: ['./api-docs/petCategory.yaml', './api-docs/petImage.yaml'], // Path to your routes files
 };
   
   const specs = swaggerJsdoc(options);
